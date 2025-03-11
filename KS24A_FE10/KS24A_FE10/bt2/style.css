@@ -1,0 +1,39 @@
+.container{
+    background-color:white;
+    margin:0px;
+}
+.header{
+    font-weight: 600;
+    display:flex;
+}
+.body{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+.category-box{
+    border-radius:6px;
+    width:160px;
+    background-color: gainsboro;
+    padding:10px 40px;
+    text-align: center;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.category-box p{
+    display:flex;
+    text-align-last:center ;
+    max-width:60px;
+    color:gray;
+    font-weight:700;
+    font-size:30px;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+img{
+    width:240px;
+    border-radius: 6px;;
+}

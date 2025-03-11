@@ -1,0 +1,38 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    color: #A7A7A7;
+    gap: 50px;
+}
+.sportnews{
+    font-family: "Dancing Script";
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+
+  }
+.home{
+    font-weight: bold;
+    color: black;
+  }
+.search{
+    background-color: white;
+    margin-left: 70px;
+    width: 70px;
+    color: #8D939E;;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    border-radius: 5px;
+
+}
+img{
+    position: relative;
+    right: 50px;
+}
